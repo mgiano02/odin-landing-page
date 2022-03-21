@@ -5,10 +5,17 @@ ul {
 
 li {
     padding: 10px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+h4 {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 nav {
@@ -17,6 +24,62 @@ nav {
 }
 
 body {
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.herocontainer {
+    display: flex;
+}
+
+.pencil {
+    max-width: 400px;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.call {
+    background-color: #3882f6;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
