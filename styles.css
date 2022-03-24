@@ -23,10 +23,9 @@ nav {
     justify-content: space-between;
 }
 
-/*body {
-    padding-left: 80px;
-    padding-right: 80px;
-}*/
+body {
+    font-family: sans-serif;
+}
 
 .herocontainer {
     display: flex;
@@ -63,15 +62,42 @@ h1 {
 
 footer {
     background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+}
+
+.herobutton {
+    border: none;
 }
 
 .call {
     background-color: #3882f6;
+    padding: 30px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call2 {
+    color: white;
+}
+
+h5 {
+    font-size: larger;
+    margin-bottom: 0%;
 }
 
 h3 {
@@ -82,8 +108,30 @@ h3 {
     justify-content: center;
 }
 
+.box {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info2 {
+    flex: 0 1 100px;
+    padding: 50px;
+}
+
 .quote {
     background-color: #e5e7eb;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .quote2 {
@@ -92,7 +140,18 @@ h3 {
     color: #1f2937;
 }
 
+.quote3 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    margin: 0;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: larger;
+}
+
 header, section, footer {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
